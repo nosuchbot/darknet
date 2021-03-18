@@ -345,11 +345,6 @@ void run_compare(int argc, char **argv)
     else if(0==strcmp(argv[2], "sort")) SortMaster3000(cfg, weights);
     else if(0==strcmp(argv[2], "battle")) BattleRoyaleWithCheese(cfg, weights);
 
-    int *p;
-	p = malloc(sizeof(int));
-	if(p == NULL)
-		return -1;
-	printf("This is MSF: %d", *p);
     /*
        else if(0==strcmp(argv[2], "train")) train_coco(cfg, weights);
        else if(0==strcmp(argv[2], "extract")) extract_boxes(cfg, weights);
